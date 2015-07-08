@@ -25,7 +25,7 @@ You can either copy `dist/css/less-burger-menu.min.css` to your projects assets.
 
 ## Usage of Compiled CSS
 
-Sample HTML structure:
+### Sample HTML structure:
 
 ```html
 ...
@@ -49,6 +49,27 @@ Sample HTML structure:
 		});
 	</script>
 </body>
+```
+
+### Sample using Less mixin
+
+```less
+@import "less-burger.less";
+
+.menu-button {
+	display: inline-block;
+	padding: .5em;
+	background-color: #fafafa;
+	border: 1px solid #ccc;
+}
+
+.burger-icon {
+	.burger(25px, 3px, 5px, #444);
+}
+
+.menu-button.is-active .burger-icon {
+	.burger-to-cross(3px, 5px);
+}
 ```
 
 ## Development
