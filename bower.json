@@ -1,0 +1,23 @@
+{
+  "name": "less-burger",
+  "version": "0.1.0",
+  "homepage": "https://github.com/MarkRabey/less-burger/",
+  "authors": [
+    "Mark Rabey <mark@markrabey.com> (http://markrabey.com)"
+  ],
+  "description": "A port of Sass Burger as a Less mixin.",
+  "keywords": [
+
+  ],
+  "main": [
+    "Gruntfile.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
