@@ -3,8 +3,8 @@ module.exports = function(grunt) {
 	// Project configuration.
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		banner: '/** \n* Package: <%= pkg.name %> - version <%= pkg.version %> \n* Author: <%= pkg.author %> \n* Build Time: <%= grunt.template.today("yyyy-mm-dd HH:MM:ss") %>  \n*/\n',
-		clean: ["dist"]
+		banner: '/** \n* Package: <%= pkg.name %> - version <%= pkg.version %> \n* Author: <%= pkg.author.name %> \n* Build Time: <%= grunt.template.today("yyyy-mm-dd HH:MM:ss") %>  \n*/\n',
+		clean: ["src/css", "dist"],
 		csslint: {
 			options: {
 				"import": 2,
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
 				files: [{
 					cwd: 'src/less',
 					expand: true,
-					src: ['*.less'],
+					src: ['less-burger-menu.less'],
 					dest: 'src/css/',
 					ext: '.css'
 				}]
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 	        linebreak: true
 	      },
 	      files: {
-	        src: ['dist/css/less-burger.min.css']
+	        src: ['dist/css/less-burger-menu.min.css']
 	      }
 	    }
 	  },
@@ -91,6 +91,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-csslint');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-clean');
+	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-banner');
 	grunt.loadNpmTasks('grunt-bump');
 
