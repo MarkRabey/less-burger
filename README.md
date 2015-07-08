@@ -1,5 +1,7 @@
 Less Burger
 ==============
+
+[![Join the chat at https://gitter.im/MarkRabey/less-burger](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MarkRabey/less-burger?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Gitter chat](https://badges.gitter.im/MarkRabey/less-burger.png)](https://gitter.im/MarkRabey/less-burger "Gitter chat")
 
 [![devDependencies](https://david-dm.org/MarkRabey/less-burger/dev-status.svg)](https://david-dm.org/MarkRabey/less-burger#info=devDependencies&view=table) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) [![Issues](http://img.shields.io/github/issues/MarkRabey/less-burger.svg)]( https://github.com/MarkRabey/less-burger/issues )
