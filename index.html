@@ -1,0 +1,20 @@
+<head>
+	<title>Less Burger Demo</title>
+	<link rel="stylesheet" href="less-burger-menu.min.css">
+</head>
+
+<body>
+	<a id="menuButton" href="#" class="menu-button">
+		<span class="burger-icon"></span>
+	</a>
+
+  A Simple demo of Less Burger. A Less port of <a href="http://joren.co/sass-burger/">Sass Burger</a>.
+
+	<script>
+		var menuButton = document.getElementById('menuButton');
+		menuButton.addEventListener('click', function (e) {
+			menuButton.classList.toggle('is-active');
+			e.preventDefault();
+		});
+	</script>
+</body>

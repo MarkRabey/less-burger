@@ -5,7 +5,7 @@ Less Burger
 [![devDependencies](https://david-dm.org/MarkRabey/less-burger/dev-status.svg)](https://david-dm.org/MarkRabey/less-burger#info=devDependencies&view=table) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) [![Issues](http://img.shields.io/github/issues/MarkRabey/less-burger.svg)]( https://github.com/MarkRabey/less-burger/issues )
 ___
 
-A port of [Sass Burger](https://github.com/jorenvanhee/sass-burger) by [Joren Van Hee](http://joren.co/) to Less.
+A port of [Sass Burger](http://joren.co/sass-burger/) by [Joren Van Hee](http://joren.co/) to Less.
 
 Check [here](http://MarkRabey.github.io/less-burger/) for a demo.
 
