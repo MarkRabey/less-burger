@@ -91,7 +91,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-csslint');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-clean');
-	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-banner');
 	grunt.loadNpmTasks('grunt-bump');
 
