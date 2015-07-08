@@ -1,7 +1,7 @@
 {
   "name": "less-burger",
   "description": "A port of Sass Burger as a Less mixin.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/MarkRabey/less-burger/",
   "author": {
     "name": "Mark Rabey",
